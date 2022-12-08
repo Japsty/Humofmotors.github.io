@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <script src="https://kit.fontawesome.com/e7e700de14.js" crossorigin="anonymous"></script>
+    <title>Hum of motors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html"><h2>humofmotors.com</h2></a>
+        <nav>
+            <a href="index_teams.html">Команды</a>
+            <a href="index_pilots.html">Пилоты</a>
+            <a href="index_tracks.html">Трассы</a> 
+            <a href="index_galleryphotos.html">Галерея</a>
+            <button class = "modal_wind">Зарегистрироваться</button>
+            <div class="hamb-butn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <section id = "pop-up">
+        <div class = "window">
+            <div class = "wrapper">
+                <form action="#">
+                    <button class = "w_close"> &#10006; </button>
+                    <div class="input-box">
+                      <input type="text" placeholder="Имя" required>
+                    </div>
+                    <div class="input-box">
+                      <input type="text" placeholder="Почта" required>
+                    </div>
+                    <div class="input-box">
+                      <input type="password" placeholder="Пароль" required>
+                    </div>
+                    <div class="input-box">
+                      <input type="password" placeholder="Подтвердить пароль" required>
+                    </div>
+                    <div class="input-box button">
+                        <input class = "register" type="Submit" value="Зарегистрироваться">
+                    </div>
+                    <div class="text">
+                      <h3>Есть аккаунт? <a href="#">Войдите в него</a></h3>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </section>
+    <section id = "teams_welcome">
+        <div class="title-container">
+            <h1>Команды</h1>
+            <h2>Здесь представленны команды их автомобили,ливери и список пилотов.</h2>
+        </div>
+    </section>
+    <section id = "teams_cont">
+        <div class="teams_container">
+            <div class="team1">
+                <div class = "box_thumb"></div>
+                <div class = "box_info">
+                    <div class = "team_block">
+                        <img class = "flag" src="switz.png">
+                        <img class = "car" src="cars\f1_alpha.png">
+                    </div>
+                    <p class = "team_title">Alfa Romeo Racing</p>
+                    <div class = "team_info">
+                        <div class = "car_name">Alfa Romeo C42</div>
+                        <div class = "drivers_info">
+                            <span class = "drivericon">
+                                <i class="fi fi-rr-man-head">Drivers:</i></span>
+                            <ul class = "drivers">
+                                <li class ="driver">24</li> Zhou Guanyu
+                                <li class ="driver">77</li> Valtteri Bottas
+                            </ul>
+                        </div>
+                        <div class = "country_name">Country: Switzerland</div>
+                    </div>
+                </div>
+            </div>
+            <div class="team2">
+                <div class = "box_thumb"></div>
+                <div class = "box_info">
+                    <div class = "team_block">
+                        <img class = "flag" src="switz.png">
+                        <img class = "car" src="cars\williams_car.png">
+                    </div>
+                    <p class = "team_title">Williams</p>
+                    <div class = "team_info">
+                        <div class = "car_name">Williams FW44</div>
+                        <div class = "drivers_info">
+                            <span class = "drivericon">
+                                <i class="fi fi-rr-man-head">Drivers:</i></span>
+                            <ul class = "drivers">
+                                <li class ="driver">6</li> Nicholas Latifi
+                                <li class ="driver">23</li> Alex Albon
+                            </ul>
+                        </div>
+                        <div class = "country_name">Country: United Kingdom</div>
+                    </div>
+                </div>
+            </div>
+            <div class="team3">
+                <div class = "box_thumb"></div>
+                <div class = "box_info">
+                    <div class = "team_block">
+                        <img class = "flag" src="switz.png">
+                        <img class = "car" src="cars\alpine_car.png">
+                    </div>
+                    <p class = "team_title">Alpine</p>
+                    <div class = "team_info">
+                        <div class = "car_name">Alpine A522</div>
+                        <div class = "drivers_info">
+                            <span class = "drivericon">
+                                <i class="fi fi-rr-man-head">Drivers:</i></span>
+                            <ul class = "drivers">
+                                <li class ="driver">14</li> Fernando Alonso
+                                <li class ="driver">31</li> Esteban Ocon
+                            </ul>
+                        </div>
+                        <div class = "country_name">Country: France</div>
+                    </div>
+                </div>
+            </div>
+            <div class="team4">
+                <div class = "box_thumb"></div>
+                <div class = "box_info">
+                    <div class = "team_block">
+                        <img class = "flag" src="switz.png">
+                        <img class = "car" src="cars\astonmartin_car.png">
+                    </div>
+                    <p class = "team_title">Aston Martin</p>
+                    <div class = "team_info">
+                        <div class = "car_name">Aston Martin AMR22</div>
+                        <div class = "drivers_info">
+                            <span class = "drivericon">
+                                <i class="fi fi-rr-man-head">Drivers:</i></span>
+                            <ul class = "drivers">
+                                <li class ="driver">5</li> 
+                                Sebastian Vettel
+                                <li class ="driver">18</li> Lance Stroll
+                            </ul>
+                        </div>
+                        <div class = "country_name">Country: United Kingdom</div>
+                    </div>
+                </div>
+            </div>
+            <div class="team5">
+                <div class = "box_thumb"></div>
+                <div class = "box_info">
+                    <div class = "team_block">
+                        <img class = "flag" src="switz.png">
+                        <img class = "car" src="cars\ferrari_car.png">
+                    </div>
+                    <p class = "team_title">Ferrari</p>
+                    <div class = "team_info">
+                        <div class = "car_name">Ferrari F1-75</div>
+                        <div class = "drivers_info">
+                            <span class = "drivericon">
+                                <i class="fi fi-rr-man-head">Drivers:</i></span>
+                            <ul class = "drivers">
+                                <li class ="driver">16</li> Charles Leclerc
+                                <li class ="driver">55</li> Carlos Sainz
+                            </ul>
+                        </div>
+                        <div class = "country_name">Country: Italy</div>
+                    </div>
+                </div>
+            </div>
+            <div class="team6">
+                <div class = "box_thumb"></div>
+                <div class = "box_info">
+                    <div class = "team_block">
+                        <img class = "flag" src="switz.png">
+                        <img class = "car" src="cars\haas_car.png">
+                    </div>
+                    <p class = "team_title">Haas</p>
+                    <div class = "team_info">
+                        <div class = "car_name">Haas VF-22</div>
+                        <div class = "drivers_info">
+                            <span class = "drivericon">
+                                <i class="fi fi-rr-man-head">Drivers:</i></span>
+                            <ul class = "drivers">
+                                <li class ="driver">20</li> Kevin Magnussen
+                                <li class ="driver">47</li> Mick Schumacher
+                            </ul>
+                        </div>
+                        <div class = "country_name">Country: United States</div>
+                    </div>
+                </div>
+            </div>
+            <div class="team7">
+                <div class = "box_thumb"></div>
+                <div class = "box_info">
+                    <div class = "team_block">
+                        <img class = "flag" src="switz.png">
+                        <img class = "car" src="cars\mclaren_car.png">
+                    </div>
+                    <p class = "team_title">McLaren</p>
+                    <div class = "team_info">
+                        <div class = "car_name">McLaren MCL36</div>
+                        <div class = "drivers_info">
+                            <span class = "drivericon">
+                                <i class="fi fi-rr-man-head">Drivers:</i></span>
+                            <ul class = "drivers">
+                                <li class ="driver">3</li> Daniel Ricciardo
+                                <li class ="driver">4</li> Lando Norris
+                            </ul>
+                        </div>
+                        <div class = "country_name">Country: United Kingdom</div>
+                    </div>
+                </div>
+            </div>
+            <div class="team8">
+                <div class = "box_thumb"></div>
+                <div class = "box_info">
+                    <div class = "team_block">
+                        <img class = "flag" src="switz.png">
+                        <img class = "car" src="cars\rb_car.png">
+                    </div>
+                    <p class = "team_title">Red Bull Racing</p>
+                    <div class = "team_info">
+                        <div class = "car_name">Red Bull RB18</div>
+                        <div class = "drivers_info">
+                            <span class = "drivericon">
+                                <i class="fi fi-rr-man-head">Drivers:</i></span>
+                            <ul class = "drivers">
+                                <li class ="driver">1</li> Max Verstappen
+                                <li class ="driver">11</li> Sergio Perez
+                            </ul>
+                        </div>
+                        <div class = "country_name">Country: Austria</div>
+                    </div>
+                </div>
+            </div>
+            <div class="team9">
+                <div class = "box_thumb"></div>
+                <div class = "box_info">
+                    <div class = "team_block">
+                        <img class = "flag" src="switz.png">
+                        <img class = "car" src="cars\mercedes_car.png">
+                    </div>
+                    <p class = "team_title">Mercedes</p>
+                    <div class = "team_info">
+                        <div class = "car_name">Mercedes W13</div>
+                        <div class = "drivers_info">
+                            <span class = "drivericon">
+                                <i class="fi fi-rr-man-head">Drivers:</i></span>
+                            <ul class = "drivers">
+                                <li class ="driver">44</li> Lewis Hamilton
+                                <li class ="driver">63</li> George Russell
+                            </ul>
+                        </div>
+                        <div class = "country_name">Country: Germany</div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </section>
+    
+    <footer>
+        <div class = "container">
+            <div class="about">
+                <h2>About Us</h2>
+                <p>Хотите узнать больше о Формуле-1, пилотах, командах или истории этого спорта? Переходите и подписывайтесь на наши соцсети.</p>
+                <ul class ="icons">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class = "quicklinks">
+                <h2>Ссылки</h2>
+                <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Помощь</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class = "Shop">
+                <h2>Купить</h2>
+                <ul>
+                    <li><a href="#">Билеты</a></li>
+                    <li><a href="#">Мерч</a></li>
+                </ul>
+            </div>
+            <div class = "Contact">
+                <h2>Contact Us</h2>
+                <ul class = "info">
+                    <li>
+                        <span><i class="fa-solid fa-location-dot"></i></span>
+                        14 Tverskaya Street <br>Moscow, 117513,<br>Russia
+                    </li>
+                    <li>
+                        <span><i class="fa-solid fa-phone"></i></span>
+                        <p><a href="#">+7 987 123 45-67</a><br>
+                            <a href="#">+7 987 123 45-67</a></p>
+                    </li>
+                    <li>
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                        <p><a href="#">example@mail.ru</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+            <div class="Copyright"><p>        2022© Виноградов Данил.ALL RIGHTS RESERVED</p></div>
+</body>
+</html>

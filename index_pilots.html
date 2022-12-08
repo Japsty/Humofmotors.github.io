@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/e7e700de14.js" crossorigin="anonymous"></script>
+    <title>Hum of motors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html"><h2>humofmotors.com</h2></a>
+        <nav>
+            <a href="index_teams.html">Команды</a>
+            <a href="index_pilots.html">Пилоты</a>
+            <a href="index_tracks.html">Трассы</a> 
+            <a href="index_galleryphotos.html">Галерея</a>  
+            <button class = "modal_wind">Зарегистрироваться</button>
+        </nav>
+    </header>
+    <section id = "pop-up">
+        <div class = "window">
+            <div class = "wrapper">
+                <form action="#">
+                    <button class = "w_close"> &#10006; </button>
+                    <div class="input-box">
+                      <input type="text" placeholder="Имя" required>
+                    </div>
+                    <div class="input-box">
+                      <input type="text" placeholder="Почта" required>
+                    </div>
+                    <div class="input-box">
+                      <input type="password" placeholder="Пароль" required>
+                    </div>
+                    <div class="input-box">
+                      <input type="password" placeholder="Подтвердить пароль" required>
+                    </div>
+                    <div class="input-box button">
+                      <input class = "register" type="Submit" value="Зарегистрироваться">
+                    </div>
+                    <div class="text">
+                      <h3>Есть аккаунт? <a href="#">Войдите в него</a></h3>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </section>
+    <section id = "pilots_welcome">
+        <div class="title-container">
+            <h1>Пилоты</h1>
+            <h2>Здесь представлена информация о знаменитых пилотах, которые выигрывали чемпионаты Формулы-1</h2>
+        </div>
+    </section>
+    <section id = "pilots">
+        <div class = "pilots_block">
+            <div class = "champion">
+                <h1>Действующий чемпион👑</h1>
+                <div class = "champion_card">
+                    <div class ="champion_image"><img src="pilots/Verstappen.jpg"></div>
+                    <div class = "champion_content">
+                        <h2>Макс Ферстаппен<br><span>Нидерланды</span></h2>
+                        <p><span>Чемпион мира:</span> 2021 2022</p>
+                        <p><span>Дебют:</span>Австралия, Альберт-Парк, 2015 </p>
+                        <p><span>Последнее участие:</span>Абу-Даби, Яс Марина, 2022</p>
+                        <br><p class = "description">Он быстр и на одном круге, и на длинной серии, отлично работает с резиной и способен беречь её в нужный момент, атакует чётко, не теряя времени и сводя риски к минимуму. </p>
+                    </div>
+                </div>
+            </div>
+            <h1>Известные пилоты</h1>
+            <div class = "row-container">
+                <div class = "pilot_card">
+                    <div class ="champion_image"><img src="pilots/Hamilton.jpg"></div>
+                    <div class = "champion_content">
+                        <h2>Льюис Хэмилтон<br><span>Великобритания</span></h2>
+                        <p><span>Чемпион мира:</span>2008 2014-2020</p>
+                        <p><span>Дебют:</span> Австралия, Альберт-Парк, 2007</p>
+                        <p><span>Последнее участие:</span> Абу-Даби, Яс Марина, 2022</p>
+                        <br><p class = "description">Хэмилтон — первый в истории гонщик Формулы-1, одержавший 100 побед. В 2020 году он также повторил рекорд Михаэля Шумахера, выиграв 7 чемпионских титулов.</p>
+                    </div>
+                </div>
+                <div class = "pilot_card">
+                    <div class ="champion_image"><img src="pilots/Michael_Shumacher.jpg"></div>
+                    <div class = "champion_content">
+                        <h2>Михаэль Шумахер<br><span>Германия</span></h2>
+                        <p><span>Чемпион мира:</span> 1994-1995 2000-2004</p>
+                        <p><span>Дебют:</span>1991 Гран-при Бельгии</p>
+                        <p><span>Последнее участие:</span>2012 Гран-при Бразилии</p>
+                        <br><p class = "description">До вознесения Хэмилтона он был лицом доминирования Ф1: семь титулов (пять подряд), кажущееся непреодолимым количество побед, неумолимая конкурентоспособность — Шумахер изменил игру в Ф1 своим сочетанием самоотверженности, страсти и, конечно же, необузданным талантом.</p>
+                    </div>
+                </div>
+                <div class = "pilot_card">
+                    <div class ="champion_image"><img src="pilots/Vettel.jpg"></div>
+                    <div class = "champion_content">
+                        <h2>Себастьян Феттель<br><span>Германия</span></h2>
+                        <p><span>Чемпион мира:</span> 2010-2013</p>
+                        <p><span>Дебют:</span>
+                            Гран-при Италии 2008 г.</p>
+                        <p><span>Последнее участие:</span>2022 Гран-при Абу-Даби</p>
+                        <br><p class = "description">
+                            Карьера Феттеля в Формуле-1 началась в 2007 году, и за первые три года он завоевал девять подиумов и пять побед, хотя это было совсем не то, что могло бы произойти. В течение следующих четырех лет он стал лицом F1, выиграв четыре чемпионата подряд и став при этом самым молодым чемпионом мира.</p>
+                    </div>
+                </div>
+            </div>
+            <div class = "row-container">
+                <div class = "pilot_card">
+                    <div class ="champion_image"><img src="pilots/Senna.jpg"></div>
+                    <div class = "champion_content">
+                        <h2>Айртон Сенна<br><span>Бразилия</span></h2>
+                        <p><span>Чемпион мира:</span> 1988, 1990-1991</p>
+                        <p><span>Дебют:</span>1984 Гран-при Бразилии</p>
+                        <p><span>Последнее участие:</span>Сан-Марино 1994</p>
+                        <br><p class = "description">Айртон Сенна, одна из самых легендарных фигур автоспорта, остается эталоном таланта и харизмы.
+                            Его глубокая приверженность кругу и его постоянное желание раздвинуть границы для большего означают, что Сенна занимает особое место в сердцах многих поклонников автоспорта.</p>
+                    </div>
+                </div>
+                <div class = "pilot_card">
+                    <div class ="champion_image"><img src="pilots/Prost.jpeg"></div>
+                    <div class = "champion_content">
+                        <h2>Ален Прост<br><span>Франция</span></h2>
+                        <p><span>Чемпион мира:</span> 1985-1986 1989 1993</p>
+                        <p><span>Дебют:</span>
+                            Гран-при Франции 1981 года </p>
+                        <p><span>Последнее участие:</span>
+                            1993 Гран-при Австралии</p>
+                        <br><p class = "description">Именно скрупулезный стиль Алена Проста заставил его сразиться с Айртоном Сенной, ожесточенной враждой, за которую его больше всего помнят.</p>
+                    </div>
+                </div>
+                <div class = "pilot_card">
+                    <div class ="champion_image"><img src="pilots/Alonso.jpg"></div>
+                    <div class = "champion_content">
+                        <h2>Фернандо Алонсо<br><span>Испания</span></h2>
+                        <p><span>Чемпион мира:</span> 2005-2006</p>
+                        <p><span>Дебют:</span>	Австралия 2001 </p>
+                        <p><span>Последнее участие:</span>Абу-Даби 2022</p>
+                        <br><p class = "description">Фернандо Алонсо - двукратный чемпион мира с репутацией бесстрашного, агрессивного гонщика, хотя его карьеру можно определить в большей степени по тому, чего не произошло, чем по двум выигранным им титулам.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class = "container">
+            <div class="about">
+                <h2>About Us</h2>
+                <p>Хотите узнать больше о Формуле-1, пилотах, командах или истории этого спорта? Переходите и подписывайтесь на наши соцсети.</p>
+                <ul class ="icons">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class = "quicklinks">
+                <h2>Ссылки</h2>
+                <ul>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Помощь</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class = "Shop">
+                <h2>Купить</h2>
+                <ul>
+                    <li><a href="#">Билеты</a></li>
+                    <li><a href="#">Мерч</a></li>
+                </ul>
+            </div>
+            <div class = "Contact">
+                <h2>Contact Us</h2>
+                <ul class = "info">
+                    <li>
+                        <span><i class="fa-solid fa-location-dot"></i></span>
+                        14 Tverskaya Street <br>Moscow, 117513,<br>Russia
+                    </li>
+                    <li>
+                        <span><i class="fa-solid fa-phone"></i></span>
+                        <p><a href="#">+7 987 123 45-67</a><br>
+                            <a href="#">+7 987 123 45-67</a></p>
+                    </li>
+                    <li>
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                        <p><a href="#">example@mail.ru</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+            <div class="Copyright"><p>        2022© Виноградов Данил.ALL RIGHTS RESERVED</p></div>
+</body>
+<script src="script.js" defer></script>
+</html>
