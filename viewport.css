@@ -1,0 +1,678 @@
+@media (max-width:1919px) { 
+   
+    .wrapper{
+        width: 50vmin;
+        bottom: 10vmin;
+        right:1vw;
+        border-radius: 1vh;
+    }
+    .wrapper form{
+        margin-top: 3vh;
+    }
+    .wrapper form .input-box{
+        height: 4vh;
+        margin: 1vmin 0;
+    }
+    form .input-box input{
+        margin-left: 1vmin;
+        margin-right: 1vmin;
+        height: 100%;
+        width: 95%;
+    }
+    form h3{
+        font-size: 1.4vh;
+        margin-left: 1vh;
+        margin-bottom: 3vh;
+    }
+    .w_close{
+        font-size: 2.5vh;
+    }
+
+    #welcome{
+        background-color: #F2F6F8;
+    }
+    #welcome h1{
+        font-size: 6vmin;
+        color:#1A2833;
+        animation:welcome_anim 2.5s linear;
+    }
+    .intro {
+        max-height: 140vh;
+        background-color: #F2F6F8;
+    }
+    .intro:after {
+        background-color: transparent;
+    }
+    .video {
+        visibility: hidden;
+    }
+    
+    .main-page
+    {
+        margin-top: 15vmin;
+        width: 81vmin;
+        height: 81vmin;
+    }
+    .gallery
+    {  
+    width: 79vmin;
+    height: 80vmin;
+    }
+    .Трассы > div{
+        height: 79vmin;
+    }
+    .Пилоты > div{  
+        height: 49.2vmin;
+    }
+    .Команды > div{
+        height: 29vmin;
+    }
+
+    #teams_cont{
+        height:250vh;
+        width: 100%;
+        margin-top: 15vmin;
+        margin-bottom: 65vw;
+    }
+
+    #pilots
+    {
+        margin-bottom: 20vmin;
+        height:490vh;
+    }
+    .row-container
+    {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 7vmin;
+    }
+    .pilot_card
+    {
+        margin-bottom: 10vmin;
+    }
+
+    #gallery_photos
+    {
+        margin-top: 10vh;
+        height: 180vh;
+    }
+    .photos {  display: grid;
+        width: 90vmin;
+        height: 160vmin;
+    }
+}
+@media (max-width:1024px) { 
+    header {
+        height:20vmin;
+        padding: 2vmin 2vmin;
+        flex-direction: column;
+    }
+    header h2{
+        font-size: 3vmin;
+        margin-bottom: 2vh;
+    }
+    nav a {
+        font-size: 2vmin;
+    }
+    nav .modal_wind {
+        font-size: 2vmin;
+    }
+    .wrapper{
+        width: 50vmin;
+        bottom: 10vmin;
+        right:1vw;
+        border-radius: 1vh;
+    }
+    .wrapper form{
+        margin-top: 3vh;
+    }
+    .wrapper form .input-box{
+        height: 4vh;
+        margin: 1vmin 0;
+    }
+    form .input-box input{
+        margin-left: 1vmin;
+        margin-right: 1vmin;
+        height: 100%;
+        width: 95%;
+    }
+    form h3{
+        font-size: 1.4vh;
+        margin-left: 1vh;
+        margin-bottom: 3vh;
+    }
+    .w_close{
+        font-size: 2.5vh;
+    }
+
+    #welcome{
+        background-color: #F2F6F8;
+        margin-top: 15vmin;
+    }
+    #welcome h1{
+        font-size: 6vmin;
+        color:#1A2833;
+        animation:welcome_anim 2.5s linear;
+    }
+    .intro {
+        max-height: 140vh;
+        background-color: #F2F6F8;
+    }
+    .intro:after {
+        background-color: transparent;
+    }
+    .video {
+        visibility: hidden;
+    }
+    
+    .main-page
+    {
+        margin-top: 15vmin;
+        width: 81vmin;
+        height: 81vmin;
+    }
+    .gallery
+    {  
+    width: 79vmin;
+    height: 80vmin;
+    }
+    .gallery > div > div{
+        opacity: 1;
+    }
+    .Трассы > div{
+        height: 79vmin;
+    }
+    .Пилоты > div{  
+        height: 47.7vmin;
+    }
+    .Команды > div{
+        height: 29vmin;
+    }
+    .gallery a{
+        color:#C7D1D7;
+    }
+    .Трассы > div{
+        background: transparent;
+    }
+    .Пилоты > div{
+        background: transparent;
+    }
+     .Команды > div{
+        background: transparent;
+    }
+      
+    #teams_welcome
+    {
+        margin-top: 15vmin;
+    }
+    #teams_welcome .title-container h1
+    {
+        font-size: 7vh;
+        margin-bottom: 6vmin;
+        letter-spacing: 1vh;
+    }
+    #teams_welcome .title-container h2
+    {
+        width: 40vh;
+        font-size: 3vh;
+        font-weight: 400;
+    }
+    #teams_cont{
+        height:250vh;
+        width: 100%;
+        margin-top: 15vmin;
+        margin-bottom: 65vw;
+    }
+    .teams_container {  
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-auto-flow: column;
+        gap: 0.5vmin 0.5vmin;
+        grid-template-areas:
+          "team1 team2"
+          "team3 team4"
+          "team5 team6"
+          "team7 team8"
+          "team9  .";
+        width: 60vh;
+        height: 188vmin;
+    }
+    
+    #pilots_welcome
+    {
+        margin-top: 15vmin;
+    }
+    #pilots_welcome .title-container h1
+    {
+        font-size: 7vh;
+        margin-bottom: 6vmin;
+        letter-spacing: 1vh;
+    }
+    #pilots_welcome .title-container h2
+    {
+        width: 40vh;
+        font-size: 3vh;
+        font-weight: 400;
+    }
+    #pilots
+    {
+        margin-bottom: 20vmin;
+        height:490vh;
+    }
+    .row-container
+    {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 7vmin;
+    }
+    .pilot_card
+    {
+        margin-bottom: 10vmin;
+    }
+
+    #tracks_welcome
+    {
+        margin-top: 15vmin;
+    }
+    #tracks_welcome .title-container h1
+    {
+        font-size: 7vh;
+        margin-bottom: 6vmin;
+        letter-spacing: 1vh;
+    }
+    #tracks_welcome .title-container h2
+    {
+        width: 40vh;
+        font-size: 3vh;
+        font-weight: 400;
+    }
+    
+    #galleryphotos_welcome
+    {
+        margin-top: 15vmin;
+    }
+    #galleryphotos_welcome .title-container h1
+    {
+        font-size: 7vh;
+        margin-bottom: 6vmin;
+        letter-spacing: 1vh;
+    }
+    #galleryphotos_welcome .title-container h2
+    {
+        width: 40vh;
+        font-size: 3vh;
+        font-weight: 400;
+    }
+    #gallery_photos
+    {
+        margin-top: 10vh;
+        height: 120vh;
+        margin-bottom: 25vh;
+    }
+    .photos {  display: grid;
+        width: 90vmin;
+        height: 160vmin;
+    }
+    .f5 {
+        background-position-y:-7vh; 
+    }
+    footer { 
+        margin-top:50vh;
+    }
+    footer .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Copyright{
+        padding: 1.5vmin 2vmin;
+        font-size: 3vmin;
+    }
+}
+@media (max-width:450px) { 
+    header {
+        height:20vmin;
+        padding: 2vmin 2vmin;
+        flex-direction: column;
+    }
+    header h2{
+        font-size: 3vmin;
+    }
+    nav a {
+        font-size: 1.4vmin;
+    }
+    nav .modal_wind {
+        font-size: 1vmin;
+    }
+
+    .wrapper{
+        width: 50vmin;
+        bottom: 10vmin;
+        right:1vw;
+        border-radius: 1vh;
+    }
+    .wrapper form{
+        margin-top: 3vh;
+    }
+    .wrapper form .input-box{
+        height: 4vh;
+        margin: 1vmin 0;
+    }
+    form .input-box input{
+        margin-left: 1vmin;
+        margin-right: 1vmin;
+        height: 100%;
+        width: 95%;
+    }
+    form h3{
+        font-size: 1.4vh;
+        margin-left: 1vh;
+        margin-bottom: 3vh;
+    }
+    .w_close{
+        font-size: 2.5vh;
+    }
+
+    #welcome{
+        background-color: #F2F6F8;
+        margin-top: 15vmin;
+    }
+    #welcome h1{
+        font-size: 6vmin;
+        color:#1A2833;
+        animation:welcome_anim 2.5s linear;
+    }
+    .intro {
+        max-height: 140vh;
+        background-color: #F2F6F8;
+    }
+    .intro:after {
+        background-color: transparent;
+    }
+    .video {
+        visibility: hidden;
+    }
+    #about .about-text-field
+    {
+        margin-right: 3vh;
+        margin-top: 1vh;
+    }
+    #about .about-text-field h1
+    {
+        font-size: 3vh;
+        margin-bottom: 2vh;
+    }
+    #about .about-text-field h2
+    {
+    font-size: 1.5vh;
+    font-weight: 500;
+    margin-bottom: 2vh;
+    }
+    #about .Verstappen{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 10vmin;
+    }
+    #about .img-description
+    {
+        font-size: 1.4vh;
+    }
+    .main-page
+    {
+        margin-top: 15vmin;
+        width: 81vmin;
+        height: 81vmin;
+    }
+    .gallery
+    {  
+    width: 79vmin;
+    height: 80vmin;
+    }
+    .gallery > div > div{
+        opacity: 1;
+    }
+    .Трассы > div{
+        height: 79vmin;
+    }
+    .Пилоты > div{  
+        height: 47.7vmin;
+    }
+    .Команды > div{
+        height: 29vmin;
+    }
+
+    #teams_welcome
+    {
+        margin-top: 15vmin;
+    }
+    #teams_welcome .title-container h1
+    {
+        font-size: 7vh;
+        margin-bottom: 6vmin;
+        letter-spacing: 1vh;
+    }
+    #teams_welcome .title-container h2
+    {
+        width: 40vh;
+        font-size: 3vh;
+        font-weight: 400;
+    }
+    #teams_cont{
+        height:425vh;
+        width: 100%;
+        margin-top: 15vmin;
+    }
+    .teams_container {  
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(9,1fr);
+        grid-auto-flow: column;
+        grid-template-areas:
+          "team1"
+          "team2"
+          "team3"
+          "team4"
+          "team5"
+          "team6"
+          "team7"
+          "team8"
+          "team9";
+        width: 55%;
+        height: 425vh;
+    }
+
+    #pilots_welcome
+    {
+        margin-top: 15vmin;
+    }
+    #pilots_welcome .title-container h1
+    {
+        font-size: 7vh;
+        margin-bottom: 6vmin;
+        letter-spacing: 1vh;
+    }
+    #pilots_welcome .title-container h2
+    {
+        width: 40vh;
+        font-size: 3vh;
+        font-weight: 400;
+    }
+    #pilots
+    {
+        margin-bottom: 20vmin;
+        height:350vh;
+    }
+    .row-container
+    {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 7vmin;
+    }
+    .champion
+    {
+        height:110vmin;
+    }
+    .champion_card
+    {
+        height:71vmin;
+        width: 65vmin;
+        font-size: 1.8vh;
+    }
+    .champion h1{
+        margin-bottom: 10vh;
+        color: #161a20;
+    }
+    .champion_content p
+    {
+    font-size: 1.8vmin;
+    }
+    .champion_content h2
+    {
+    font-size: 2.2vmin;
+    }
+    .champion_content
+    {
+        padding:2vmin;
+        width: 100%;
+        height: 15vmin;
+    }
+    .pilots_block h1
+    {
+        font-size: 3.5vh;
+    }
+    .pilot_card
+    {
+        height:71vmin;
+        width: 65vmin;
+        margin-bottom: 10vmin;
+    }
+    .pilot_card:nth-child(1) p
+    {
+    font-size: 1.4vh;
+    }
+    .pilot_card:nth-child(3) p
+    {
+    font-size: 1.5vh;
+    }
+
+    #tracks_welcome
+    {
+        margin-top: 15vmin;
+    }
+    #tracks_welcome .title-container h1
+    {
+        font-size: 7vh;
+        margin-bottom: 6vmin;
+        letter-spacing: 1vh;
+    }
+    #tracks_welcome .title-container h2
+    {
+        width: 40vh;
+        font-size: 3vh;
+        font-weight: 400;
+    }
+    #tracks
+    {
+        height: 550vmin;
+    }
+    .track1,.track2,.track3,.track4
+    {
+        width: 90vmin;
+        height: 100vmin ;
+        border-radius: 2.5vh;
+        margin-bottom: 10vh;
+    }
+    .track1::before,.track2::before,.track3::before,.track4::before
+    {
+        width: 25vh;
+        height: 80vmin;
+        border-radius: 2.5vh;
+        transform: translateX(-80%);
+    }
+    .track-text
+    {
+        height: 60vmin;
+        width:52vmin;
+    }
+    .track-text h2
+    {
+        font-size: 3vh;
+        margin-bottom: 2vmin;
+        font-weight: 500;
+    }
+    .track-text p
+    {
+        font-size: 1.6vh;
+        font-weight: 400;
+    }
+    .track-cont
+    {
+        display: flex;
+        justify-content: start;
+        height: 80vmin;
+        width:60vmin;
+        margin-left: 35%;
+    }
+    .track-button
+    {
+        margin-top: 5vh;
+        margin-left: 1.9vh;
+        justify-self: flex-end;
+        align-self: flex-start;
+        height: 15vh;
+        width: 20vh;
+    }
+    .track-button button 
+    {
+        width: 15vh;
+        height: 5vh;
+    }
+    .track-button button:hover 
+    {
+        box-shadow: 0 0 1vh 0 #C7D1D7;
+    }
+
+
+    #galleryphotos_welcome
+    {
+        margin-top: 15vmin;
+    }
+    #galleryphotos_welcome .title-container h1
+    {
+        font-size: 7vh;
+        margin-bottom: 6vmin;
+        letter-spacing: 1vh;
+    }
+    #galleryphotos_welcome .title-container h2
+    {
+        width: 40vh;
+        font-size: 3vh;
+        font-weight: 400;
+    }
+    #gallery_photos
+    {
+        margin-top: 10vh;
+        height: 80vh;
+        margin-bottom: 25vh;
+    }
+    .photos {  display: grid;
+        width: 90vmin;
+        height: 160vmin;
+    }
+    .f5 {
+        background-position-y:-7vh; }
+
+    footer .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Copyright{
+        padding: 1.5vmin 2vmin;
+        font-size: 4vmin;
+    }
+}

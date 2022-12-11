@@ -32,12 +32,3 @@ button1.addEventListener('click',openWindow);
 
 windClose.addEventListener('click',closeWindow);
 windClose_2.addEventListener('click',closeWindow);
-
-/*----------------hamburgermenu----------------------*/
-
-let menuBtn = document.querySelector('.hamb-butn');
-let menu = document.querySelector('.hamb-menu');
-menuBtn.addEventListener('click', function(){
-	menuBtn.classList.toggle('active');
-	menu.classList.toggle('active');
-})
