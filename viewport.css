@@ -292,6 +292,67 @@
         font-size: 3vh;
         font-weight: 400;
     }
+    #tracks
+    {
+        height: 550vmin;
+    }
+    .track1,.track2,.track3,.track4
+    {
+        width: 90vmin;
+        height: 100vmin ;
+        border-radius: 2.5vh;
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+    }
+    .track1::before,.track2::before,.track3::before,.track4::before
+    {
+        width: 25vh;
+        height: 80vmin;
+        border-radius: 2.5vh;
+        transform: translateX(-80%);
+    }
+    .track-text
+    {
+        height: 60vmin;
+        width:52vmin;
+    }
+    .track-text h2
+    {
+        font-size: 3vh;
+        margin-bottom: 2vmin;
+        font-weight: 500;
+    }
+    .track-text p
+    {
+        font-size: 1.6vh;
+        font-weight: 400;
+    }
+    .track-cont
+    {
+        display: flex;
+        justify-content: start;
+        height: 80vmin;
+        width:60vmin;
+        margin-left: 35%;
+    }
+    .track-button
+    {
+        margin-top: 5vh;
+        margin-left: 1.9vh;
+        justify-self: flex-end;
+        align-self: flex-start;
+        height: 15vh;
+        width: 20vh;
+    }
+    .track-button button 
+    {
+        width: 15vh;
+        height: 5vh;
+    }
+    .track-button button:hover 
+    {
+        box-shadow: 0 0 1vh 0 #C7D1D7;
+    }
     
     #galleryphotos_welcome
     {
@@ -632,10 +693,6 @@
     {
         width: 15vh;
         height: 5vh;
-    }
-    .track-button button:hover 
-    {
-        box-shadow: 0 0 1vh 0 #C7D1D7;
     }
 
 
